@@ -1,0 +1,39 @@
+/* ===========================
+   NAVBAR GRADIENT
+=========================== */
+.navbar-gradient {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.979) 0%, 
+    rgba(0, 0, 0, 0.4) 60%, 
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+  transition: all 0.3s ease;
+}
+
+.navbar-gradient .nav-link,
+.navbar-gradient  {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem; 
+  font-weight: 510;  
+}
+
+.navbar-gradient .nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+}
